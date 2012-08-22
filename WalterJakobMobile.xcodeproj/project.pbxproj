@@ -14,7 +14,19 @@
 		4292B20E15E55E92008CD5B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B20D15E55E92008CD5B8 /* main.m */; };
 		4292B21215E55E92008CD5B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B21115E55E92008CD5B8 /* AppDelegate.m */; };
 		4292B21515E55E92008CD5B8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4292B21315E55E92008CD5B8 /* MainStoryboard.storyboard */; };
-		4292B21815E55E92008CD5B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B21715E55E92008CD5B8 /* ViewController.m */; };
+		4292B22015E57F8A008CD5B8 /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B21F15E57F8A008CD5B8 /* mapViewController.m */; };
+		4292B22315E57FA2008CD5B8 /* listViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B22215E57FA2008CD5B8 /* listViewController.m */; };
+		4292B22615E57FAF008CD5B8 /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B22515E57FAF008CD5B8 /* settingsViewController.m */; };
+		4292B22D15E5808C008CD5B8 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B22C15E5808C008CD5B8 /* TabBarViewController.m */; };
+		4292B23915E587B6008CD5B8 /* top_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4292B23715E587B6008CD5B8 /* top_shadow.png */; };
+		4292B23A15E587B6008CD5B8 /* top_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4292B23815E587B6008CD5B8 /* top_shadow@2x.png */; };
+		4292B23C15E5940B008CD5B8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4292B23B15E5940B008CD5B8 /* MapKit.framework */; };
+		4292B24615E59443008CD5B8 /* annotationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B23F15E59443008CD5B8 /* annotationsController.m */; };
+		4292B24715E59443008CD5B8 /* CLLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B24115E59443008CD5B8 /* CLLocationController.m */; };
+		4292B24815E59443008CD5B8 /* ConnectedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B24315E59443008CD5B8 /* ConnectedClass.m */; };
+		4292B24915E59443008CD5B8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B24515E59443008CD5B8 /* Reachability.m */; };
+		4292B24B15E59457008CD5B8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4292B24A15E59456008CD5B8 /* SystemConfiguration.framework */; };
+		4292B25115E599C1008CD5B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4292B25015E599C1008CD5B8 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +41,27 @@
 		4292B21015E55E92008CD5B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4292B21115E55E92008CD5B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4292B21415E55E92008CD5B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		4292B21615E55E92008CD5B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4292B21715E55E92008CD5B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4292B21E15E57F8A008CD5B8 /* mapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapViewController.h; sourceTree = "<group>"; };
+		4292B21F15E57F8A008CD5B8 /* mapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapViewController.m; sourceTree = "<group>"; };
+		4292B22115E57FA2008CD5B8 /* listViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listViewController.h; sourceTree = "<group>"; };
+		4292B22215E57FA2008CD5B8 /* listViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listViewController.m; sourceTree = "<group>"; };
+		4292B22415E57FAF008CD5B8 /* settingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingsViewController.h; sourceTree = "<group>"; };
+		4292B22515E57FAF008CD5B8 /* settingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingsViewController.m; sourceTree = "<group>"; };
+		4292B22B15E5808C008CD5B8 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		4292B22C15E5808C008CD5B8 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		4292B23715E587B6008CD5B8 /* top_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_shadow.png; sourceTree = "<group>"; };
+		4292B23815E587B6008CD5B8 /* top_shadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_shadow@2x.png"; sourceTree = "<group>"; };
+		4292B23B15E5940B008CD5B8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4292B23E15E59443008CD5B8 /* annotationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = annotationsController.h; sourceTree = "<group>"; };
+		4292B23F15E59443008CD5B8 /* annotationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = annotationsController.m; sourceTree = "<group>"; };
+		4292B24015E59443008CD5B8 /* CLLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLocationController.h; sourceTree = "<group>"; };
+		4292B24115E59443008CD5B8 /* CLLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLocationController.m; sourceTree = "<group>"; };
+		4292B24215E59443008CD5B8 /* ConnectedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectedClass.h; sourceTree = "<group>"; };
+		4292B24315E59443008CD5B8 /* ConnectedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectedClass.m; sourceTree = "<group>"; };
+		4292B24415E59443008CD5B8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4292B24515E59443008CD5B8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4292B24A15E59456008CD5B8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4292B25015E599C1008CD5B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4292B25115E599C1008CD5B8 /* CoreLocation.framework in Frameworks */,
+				4292B24B15E59457008CD5B8 /* SystemConfiguration.framework in Frameworks */,
+				4292B23C15E5940B008CD5B8 /* MapKit.framework in Frameworks */,
 				4292B20215E55E92008CD5B8 /* UIKit.framework in Frameworks */,
 				4292B20415E55E92008CD5B8 /* Foundation.framework in Frameworks */,
 				4292B20615E55E92008CD5B8 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +84,9 @@
 		4292B1F215E55E92008CD5B8 = {
 			isa = PBXGroup;
 			children = (
+				4292B25015E599C1008CD5B8 /* CoreLocation.framework */,
+				4292B24A15E59456008CD5B8 /* SystemConfiguration.framework */,
+				4292B23B15E5940B008CD5B8 /* MapKit.framework */,
 				4292B20715E55E92008CD5B8 /* WalterJakobMobile */,
 				4292B20015E55E92008CD5B8 /* Frameworks */,
 				4292B1FE15E55E92008CD5B8 /* Products */,
@@ -77,11 +114,19 @@
 		4292B20715E55E92008CD5B8 /* WalterJakobMobile */ = {
 			isa = PBXGroup;
 			children = (
+				4292B23D15E59437008CD5B8 /* Classes */,
+				4292B23215E5879A008CD5B8 /* Resources */,
 				4292B21015E55E92008CD5B8 /* AppDelegate.h */,
 				4292B21115E55E92008CD5B8 /* AppDelegate.m */,
 				4292B21315E55E92008CD5B8 /* MainStoryboard.storyboard */,
-				4292B21615E55E92008CD5B8 /* ViewController.h */,
-				4292B21715E55E92008CD5B8 /* ViewController.m */,
+				4292B22B15E5808C008CD5B8 /* TabBarViewController.h */,
+				4292B22C15E5808C008CD5B8 /* TabBarViewController.m */,
+				4292B21E15E57F8A008CD5B8 /* mapViewController.h */,
+				4292B21F15E57F8A008CD5B8 /* mapViewController.m */,
+				4292B22115E57FA2008CD5B8 /* listViewController.h */,
+				4292B22215E57FA2008CD5B8 /* listViewController.m */,
+				4292B22415E57FAF008CD5B8 /* settingsViewController.h */,
+				4292B22515E57FAF008CD5B8 /* settingsViewController.m */,
 				4292B20815E55E92008CD5B8 /* Supporting Files */,
 			);
 			path = WalterJakobMobile;
@@ -96,6 +141,62 @@
 				4292B20F15E55E92008CD5B8 /* WalterJakobMobile-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4292B23215E5879A008CD5B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4292B23615E587AE008CD5B8 /* Settings */,
+				4292B23515E587AA008CD5B8 /* List */,
+				4292B23415E587A5008CD5B8 /* Map */,
+				4292B23315E587A1008CD5B8 /* Main */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4292B23315E587A1008CD5B8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4292B23715E587B6008CD5B8 /* top_shadow.png */,
+				4292B23815E587B6008CD5B8 /* top_shadow@2x.png */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		4292B23415E587A5008CD5B8 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		4292B23515E587AA008CD5B8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		4292B23615E587AE008CD5B8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4292B23D15E59437008CD5B8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4292B23E15E59443008CD5B8 /* annotationsController.h */,
+				4292B23F15E59443008CD5B8 /* annotationsController.m */,
+				4292B24015E59443008CD5B8 /* CLLocationController.h */,
+				4292B24115E59443008CD5B8 /* CLLocationController.m */,
+				4292B24215E59443008CD5B8 /* ConnectedClass.h */,
+				4292B24315E59443008CD5B8 /* ConnectedClass.m */,
+				4292B24415E59443008CD5B8 /* Reachability.h */,
+				4292B24515E59443008CD5B8 /* Reachability.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +252,8 @@
 			files = (
 				4292B20C15E55E92008CD5B8 /* InfoPlist.strings in Resources */,
 				4292B21515E55E92008CD5B8 /* MainStoryboard.storyboard in Resources */,
+				4292B23915E587B6008CD5B8 /* top_shadow.png in Resources */,
+				4292B23A15E587B6008CD5B8 /* top_shadow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +266,14 @@
 			files = (
 				4292B20E15E55E92008CD5B8 /* main.m in Sources */,
 				4292B21215E55E92008CD5B8 /* AppDelegate.m in Sources */,
-				4292B21815E55E92008CD5B8 /* ViewController.m in Sources */,
+				4292B22015E57F8A008CD5B8 /* mapViewController.m in Sources */,
+				4292B22315E57FA2008CD5B8 /* listViewController.m in Sources */,
+				4292B22615E57FAF008CD5B8 /* settingsViewController.m in Sources */,
+				4292B22D15E5808C008CD5B8 /* TabBarViewController.m in Sources */,
+				4292B24615E59443008CD5B8 /* annotationsController.m in Sources */,
+				4292B24715E59443008CD5B8 /* CLLocationController.m in Sources */,
+				4292B24815E59443008CD5B8 /* ConnectedClass.m in Sources */,
+				4292B24915E59443008CD5B8 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +389,7 @@
 				4292B21D15E55E92008CD5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

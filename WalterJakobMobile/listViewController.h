@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  listViewController.h
 //  WalterJakobMobile
 //
 //  Created by Jakob Hans Renpening on 22/8/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface listViewController : UIViewController
 
 @end
