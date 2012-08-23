@@ -27,6 +27,7 @@
 		4292B24915E59443008CD5B8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B24515E59443008CD5B8 /* Reachability.m */; };
 		4292B24B15E59457008CD5B8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4292B24A15E59456008CD5B8 /* SystemConfiguration.framework */; };
 		4292B25115E599C1008CD5B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4292B25015E599C1008CD5B8 /* CoreLocation.framework */; };
+		4292B25D15E5A526008CD5B8 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B25C15E5A526008CD5B8 /* detailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,8 @@
 		4292B24515E59443008CD5B8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		4292B24A15E59456008CD5B8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4292B25015E599C1008CD5B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4292B25B15E5A526008CD5B8 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		4292B25C15E5A526008CD5B8 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,13 +121,15 @@
 				4292B23215E5879A008CD5B8 /* Resources */,
 				4292B21015E55E92008CD5B8 /* AppDelegate.h */,
 				4292B21115E55E92008CD5B8 /* AppDelegate.m */,
-				4292B21315E55E92008CD5B8 /* MainStoryboard.storyboard */,
 				4292B22B15E5808C008CD5B8 /* TabBarViewController.h */,
 				4292B22C15E5808C008CD5B8 /* TabBarViewController.m */,
+				4292B21315E55E92008CD5B8 /* MainStoryboard.storyboard */,
 				4292B21E15E57F8A008CD5B8 /* mapViewController.h */,
 				4292B21F15E57F8A008CD5B8 /* mapViewController.m */,
 				4292B22115E57FA2008CD5B8 /* listViewController.h */,
 				4292B22215E57FA2008CD5B8 /* listViewController.m */,
+				4292B25B15E5A526008CD5B8 /* detailViewController.h */,
+				4292B25C15E5A526008CD5B8 /* detailViewController.m */,
 				4292B22415E57FAF008CD5B8 /* settingsViewController.h */,
 				4292B22515E57FAF008CD5B8 /* settingsViewController.m */,
 				4292B20815E55E92008CD5B8 /* Supporting Files */,
@@ -274,6 +279,7 @@
 				4292B24715E59443008CD5B8 /* CLLocationController.m in Sources */,
 				4292B24815E59443008CD5B8 /* ConnectedClass.m in Sources */,
 				4292B24915E59443008CD5B8 /* Reachability.m in Sources */,
+				4292B25D15E5A526008CD5B8 /* detailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

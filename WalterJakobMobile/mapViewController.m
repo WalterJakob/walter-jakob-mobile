@@ -53,6 +53,11 @@
     mapGotLocation = NO;
 }
 
+-(MKAnnotationView*)mapView:(MKMapView *)mapView viewForAnnotation:(annotationsController*)annotation
+{
+    
+}
+
 -(void)locationUpdate:(CLLocation *)location
 {
     if (location.horizontalAccuracy >= 0 && !mapGotLocation) {
@@ -68,6 +73,26 @@
     }
 }
 
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 4;
+}
+
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+}
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -76,7 +101,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return (interfaceOrientation == UIInterfaceOrientationPortrait || interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown);
 }
 
 @end
