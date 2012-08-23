@@ -1,5 +1,5 @@
 //
-//  detailViewController.h
+//  mapDetailViewController.h
 //  WalterJakobMobile
 //
 //  Created by Jakob Hans Renpening on 23/8/12.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-@interface detailViewController : UIViewController
+@interface mapDetailViewController : UIViewController
 
 @end

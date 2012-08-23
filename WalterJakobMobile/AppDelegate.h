@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    NSMutableArray *detailsItem;
+    NSMutableArray *mapPoints;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property NSMutableArray *detailsItem;
+@property NSMutableArray *mapPoints;
 
 @end

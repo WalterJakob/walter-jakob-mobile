@@ -1,18 +1,18 @@
 //
-//  detailViewController.m
+//  mapDetailViewController.m
 //  WalterJakobMobile
 //
 //  Created by Jakob Hans Renpening on 23/8/12.
 //  Copyright (c) 2012 WalterJakob. All rights reserved.
 //
 
-#import "detailViewController.h"
+#import "mapDetailViewController.h"
 
-@interface detailViewController ()
+@interface mapDetailViewController ()
 
 @end
 
-@implementation detailViewController
+@implementation mapDetailViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    AppDelegate* appDelegate = (AppDelegate*) [UIApplication sharedApplication].delegate;
+    
+    NSLog(@"%@", [appDelegate.detailsItem objectAtIndex:0]);
 }
 
 - (void)viewDidUnload

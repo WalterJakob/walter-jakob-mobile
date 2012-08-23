@@ -14,11 +14,13 @@
     NSString *_subtitle;
     CLLocationCoordinate2D _coordinate;
     NSString *annotationType;
+    NSString *annotationID;
 }
 
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 @property NSString *annotationType;
+@property NSString *annotationID;
 
--(id)initWithTitle:(NSString *)title subtitle:(NSString *)subtitle coordinate:(CLLocationCoordinate2D)coordinate andAnnotationType:(NSString *)annotationType;
+-(id)initWithTitle:(NSString *)title subtitle:(NSString *)subtitle coordinate:(CLLocationCoordinate2D)coordinate annotationType:(NSString *)annotationType andAnnotationID:(NSString *)annotationID;
 
 @end

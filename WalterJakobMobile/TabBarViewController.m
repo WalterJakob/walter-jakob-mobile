@@ -30,12 +30,20 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    [self.tabBar setBackgroundImage:[UIImage imageNamed:@"tab_bar_bg.png"]];
+    
     UITabBarItem *item_0 = [[self->customTabBar items] objectAtIndex:0];
     [item_0 setTitle:@"Map"];
+    [item_0 setFinishedSelectedImage:[UIImage imageNamed:@"tab_icon_0_hl.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"tab_icon_0.png"]];
+    [item_0 setImageInsets:UIEdgeInsetsMake(7, 0, -7, 0)];
     UITabBarItem *item_1 = [[self->customTabBar items] objectAtIndex:1];
-    [item_1 setTitle:@"List"];
+    [item_1 setTitle:@"Community"];
+    [item_1 setFinishedSelectedImage:[UIImage imageNamed:@"tab_icon_1_hl.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"tab_icon_1.png"]];
+    [item_1 setImageInsets:UIEdgeInsetsMake(7, 0, -7, 0)];
     UITabBarItem *item_2 = [[self->customTabBar items] objectAtIndex:2];
     [item_2 setTitle:@"Settings"];
+    [item_2 setFinishedSelectedImage:[UIImage imageNamed:@"tab_icon_2_hl.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"tab_icon_2.png"]];
+    [item_2 setImageInsets:UIEdgeInsetsMake(7, 0, -7, 0)];
     
     UIImageView *statusBarShadow = [[UIImageView alloc] initWithFrame:CGRectMake(0, 20, 320, 10)];
     [statusBarShadow setImage:[UIImage imageNamed:@"top_shadow.png"]];

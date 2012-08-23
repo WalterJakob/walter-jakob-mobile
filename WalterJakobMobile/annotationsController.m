@@ -14,12 +14,14 @@
 @synthesize subtitle = _subtitle;
 @synthesize coordinate = _coordinate;
 @synthesize annotationType;
+@synthesize annotationID;
 
--(id)initWithTitle:(NSString *)title subtitle:(NSString *)subtitle coordinate:(CLLocationCoordinate2D)coordinate andAnnotationType:(NSString *)annotationType{
+-(id)initWithTitle:(NSString *)title subtitle:(NSString *)subtitle coordinate:(CLLocationCoordinate2D)coordinate annotationType:(NSString *)annotationType andAnnotationID:(NSString *)annotationID {
     if ((self = [super init])) {
         _title = [title copy];
         _subtitle = [subtitle copy];
         _coordinate = coordinate;
+        self.annotationID = annotationID;
         self.annotationType = annotationType;
     }
     return self;
