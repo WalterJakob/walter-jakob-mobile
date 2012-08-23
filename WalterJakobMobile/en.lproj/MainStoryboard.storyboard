@@ -34,6 +34,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="wf6-Yd-MrS"/>
                     <navigationItem key="navigationItem" id="32M-W4-DIK"/>
+                    <connections>
+                        <segue destination="sAT-7N-25h" kind="push" identifier="LIST_TO_DETAILS" id="DGd-Hr-dcT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1FI-Gs-wAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -123,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n47-le-K9v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1936" y="-403"/>
+            <point key="canvasLocation" x="1956" y="75"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="jVQ-He-yXN">
@@ -172,4 +175,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="DGd-Hr-dcT"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -8,7 +8,21 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "UIPlaceHolderTextView.h"
 
 @interface listViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+{
+    UITableView *communityTable;
+    
+    NSMutableArray *items;
+    
+    BOOL proposalBtn;
+    
+    UIButton *moodBtn;
+}
+
+@property UITableView *communityTable;
+@property NSMutableArray *items;
+@property UIButton *moodBtn;
 
 @end

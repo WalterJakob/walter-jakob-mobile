@@ -16,6 +16,8 @@
 {
     // Override point for customization after application launch.
     
+    [application setStatusBarHidden:NO withAnimation:UIStatusBarAnimationSlide];
+    
     [application setStatusBarStyle:UIStatusBarStyleBlackOpaque];
     
     detailsItem = [[NSMutableArray alloc] initWithCapacity:1];

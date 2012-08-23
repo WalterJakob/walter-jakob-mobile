@@ -162,10 +162,10 @@
 {
     if (location.horizontalAccuracy >= 0 && !mapGotLocation) {
         MKCoordinateRegion mapRegion;
-        mapRegion.center.latitude = location.coordinate.latitude;
-        mapRegion.center.longitude = location.coordinate.longitude;
-        mapRegion.span.latitudeDelta = 0.03;
-        mapRegion.span.longitudeDelta = 0.03;
+        mapRegion.center.latitude = 52.482101;
+        mapRegion.center.longitude = 13.389667;
+        mapRegion.span.latitudeDelta = 0.05;
+        mapRegion.span.longitudeDelta = 0.05;
         
         [map setRegion:mapRegion];
         

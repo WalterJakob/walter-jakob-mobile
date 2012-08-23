@@ -11,8 +11,10 @@
 @interface TabBarViewController : UITabBarController
 {
     IBOutlet UITabBar *customTabBar;
+    UIView *animationBg;
 }
 
 @property UITabBar *customTabBar;
+@property UIView *animationBg;
 
 @end
