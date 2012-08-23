@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    [self.navigationController.navigationBar.topItem setTitle:@"Community"];
 }
 
 - (void)viewDidUnload
