@@ -19,10 +19,13 @@
     BOOL proposalBtn;
     
     UIButton *moodBtn;
+    
+    UIPlaceHolderTextView *textView;
 }
 
 @property UITableView *communityTable;
 @property NSMutableArray *items;
 @property UIButton *moodBtn;
+@property UIPlaceHolderTextView *textView;
 
 @end

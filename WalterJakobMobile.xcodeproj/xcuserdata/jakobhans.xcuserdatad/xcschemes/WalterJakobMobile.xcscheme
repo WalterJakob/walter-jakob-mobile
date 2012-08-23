@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4292B1FC15E55E92008CD5B8"
-               BuildableName = "WalterJakobMobile.app"
+               BuildableName = "livingCity.app"
                BlueprintName = "WalterJakobMobile"
                ReferencedContainer = "container:WalterJakobMobile.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4292B1FC15E55E92008CD5B8"
-            BuildableName = "WalterJakobMobile.app"
+            BuildableName = "livingCity.app"
             BlueprintName = "WalterJakobMobile"
             ReferencedContainer = "container:WalterJakobMobile.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4292B1FC15E55E92008CD5B8"
-            BuildableName = "WalterJakobMobile.app"
+            BuildableName = "livingCity.app"
             BlueprintName = "WalterJakobMobile"
             ReferencedContainer = "container:WalterJakobMobile.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4292B1FC15E55E92008CD5B8"
-            BuildableName = "WalterJakobMobile.app"
+            BuildableName = "livingCity.app"
             BlueprintName = "WalterJakobMobile"
             ReferencedContainer = "container:WalterJakobMobile.xcodeproj">
          </BuildableReference>

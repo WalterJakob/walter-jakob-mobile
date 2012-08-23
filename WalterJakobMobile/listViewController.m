@@ -16,6 +16,7 @@
 
 @synthesize communityTable;
 @synthesize moodBtn;
+@synthesize textView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -41,7 +42,7 @@
     
     UIView *submitContainer = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 80)];
     [submitContainer setBackgroundColor:[UIColor colorWithWhite:1 alpha:1]];
-    UIPlaceHolderTextView *textView = [[UIPlaceHolderTextView alloc] initWithFrame:CGRectMake(0, 0, 270, 80)];
+    textView = [[UIPlaceHolderTextView alloc] initWithFrame:CGRectMake(0, 0, 270, 80)];
     [textView setPlaceholder:@"Contribute with your own Complaint or Proposal to improve the city."];
     [textView setBackgroundColor:[UIColor colorWithWhite:0.9 alpha:1]];
     [textView setReturnKeyType:UIReturnKeyDone];
@@ -53,6 +54,7 @@
     
     UIButton *sendBtn = [[UIButton alloc] initWithFrame:CGRectMake(270, 40, 50, 40)];
     [sendBtn setImage:[UIImage imageNamed:@"send_btn.png"] forState:UIControlStateNormal];
+    [sendBtn addTarget:nil action:@selector(sendAlert) forControlEvents:UIControlEventTouchUpInside];
     
     [submitContainer addSubview:textView];
     [submitContainer addSubview:moodBtn];
@@ -77,6 +79,19 @@
     }
 }
 
+-(void)sendAlert
+{
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Contributing" message:@"We really appreciate your trying to collaborate. Unfortunately this is just a prototype and has no services on the outside." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alertView show];
+    
+    [textView resignFirstResponder];
+}
+
+-(void)textViewResignKeyboard
+{
+    [textView resignFirstResponder];
+}
+
 -(void)toggleBtn
 {
     if (proposalBtn) {
@@ -86,6 +101,8 @@
         [moodBtn setImage:[UIImage imageNamed:@"proposal_btn.png"] forState:UIControlStateNormal];
         proposalBtn = YES;
     }
+    
+    [self textViewResignKeyboard];
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

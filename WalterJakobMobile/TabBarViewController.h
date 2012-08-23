@@ -12,9 +12,11 @@
 {
     IBOutlet UITabBar *customTabBar;
     UIView *animationBg;
+    UIView *tutorialScreenHover;
 }
 
 @property UITabBar *customTabBar;
 @property UIView *animationBg;
+@property UIView *tutorialScreenHover;
 
 @end
